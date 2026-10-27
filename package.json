@@ -1,0 +1,19 @@
+{
+  "name": "codex-grok-pet",
+  "version": "1.0.0",
+  "description": "GrokBot-style desktop pet for Codex — a glossy black orb with lively eyes",
+  "main": "src/main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "snapshot": "electron . --snapshot --no-sandbox",
+    "test": "node scripts/test-watcher.js"
+  },
+  "bin": {
+    "codex-pet": "bin/codex-pet.js"
+  },
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "electron": "^45.0.0"
+  }
+}
