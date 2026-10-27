@@ -48,7 +48,8 @@ macOS（已在 macOS 27 / Apple Silicon 上验证）。
 **方式二：从源码运行**
 
 ```bash
-cd codex-pet
+git clone https://github.com/TosakaXie0215/codex-grok-pet.git
+cd codex-grok-pet
 npm install
 npm start
 ```
